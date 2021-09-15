@@ -3,16 +3,18 @@ body {
     font-family: 'Roboto';
 }
 
+
 header{
     display: flex;
     justify-content: space-between;
     margin: 20px 40px;
+    border-bottom: 3px solid #f9f9f9;
+    
 }
 header img{
     height: 20px;
     width: auto;
 }
-
 .button{
     font-family: "Roboto";
     border-radius:40px;
@@ -22,4 +24,15 @@ header img{
 }
 a{
     text-decoration: none;
+}
+header a {
+    color: black;
+    padding: 0 10px;
+}
+header button{
+    margin: 0 5px;
+}
+.connex {
+    border-color: #2d96c8;
+    color: #2d96c8;
 }

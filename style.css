@@ -3,24 +3,26 @@ body {
     font-family: 'Roboto';
 }
 
-
-header{
-    display: flex;
-    justify-content: space-between;
-    margin: 20px 40px;
-    border-bottom: 3px solid #f9f9f9;
-    
-}
-header img{
-    height: 20px;
-    width: auto;
-}
 .button{
     font-family: "Roboto";
     border-radius:40px;
     border: 3px solid black;
     padding: 5px 15px;
     background: white;
+}
+
+/*Header*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px;
+    border-bottom: 3px solid #f9f9f9;
+    
+}
+header img{
+    height: 20px;
+    width: auto;
 }
 a{
     text-decoration: none;
@@ -32,7 +34,43 @@ header a {
 header button{
     margin: 0 5px;
 }
+header nav{
+    margin-bottom: 10px;
+}
 .connex {
     border-color: #2d96c8;
     color: #2d96c8;
+}
+.join {
+    border-color: #2d96c8;
+    color: white;
+    background-color: #2d96c8;
+}
+
+/*Première*/
+
+.premiere{
+    display: flex;
+    height: 250px;
+}
+.img-prem {    
+    width: auto;
+    height: 250px;
+    overflow: hidden;
+}
+.premiere img {
+    height: 350px;
+}
+.prem {
+    width: 379px;
+}
+.prem-box{
+    display: flex;
+    margin: auto;
+}
+
+/*Presentation*/
+
+.presentation {
+    background: #f9f9f9;
 }

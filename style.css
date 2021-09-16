@@ -110,13 +110,24 @@ header nav{
 .infobox {
     width: 600px;
     padding: 33px;
-    display: flex;
-}
-.infobox h2{
-
+    display: block;
 }
 .infobox div{
-    width: 280px;
-    padding-right: 20px;
     justify-content: space-evenly;
+    padding-right: 20px;
+}
+.textpres {
+    display: flex;
+}
+.textpres p {
+    font-size: 14px;
+}
+.textpres h2{
+    font-size: 18px;
+}
+
+/*Icones*/
+.icones img{
+    width: 45px;
+    margin: 5px;
 }

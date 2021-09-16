@@ -9,11 +9,19 @@ body {
     border: 3px solid black;
     padding: 5px 15px;
     background: white;
+    align-items: center;
 }
 
 .box{
     display: flex;
     margin: auto;
+}
+
+.boxoffre{
+    width: 200px;
+    height: 410px;
+    padding: 50px;
+    margin: 5px;
 }
 
 /*Header*/
@@ -127,7 +135,60 @@ header nav{
 }
 
 /*Icones*/
+.icones{
+    background-color: #ef5466;
+    color: white;
+    height: 170px;
+}
 .icones img{
     width: 45px;
     margin: 5px;
+    filter: brightness(0) invert(1);
+    padding-top: 50px;
+}
+.ibox{
+    justify-content: center;
+}
+.iline{
+    margin-right: 15px;
+}
+.itext{
+    padding-top: 15px;
+    width: 400px;
+}
+.itext p {
+    font-size: 12px;
+}
+
+/*Offres*/
+.offres img{
+    width: 14px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+.boxoofre h2{
+    align-items: center;
+}
+.boxoffre p{
+    color:#8e8e94;
+}
+.blanc{
+    box-shadow:0 0 5px 3px rgb(226, 226, 226);
+}
+.blue{
+    background: #2d96c8;
+    color: white;
+}
+.blue p{
+    color: white;
+}
+.three{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.offres button{
+    width: 150px;
+    height: 30px;
+    margin-right: 25px;
 }

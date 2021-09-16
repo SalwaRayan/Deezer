@@ -11,6 +11,11 @@ body {
     background: white;
 }
 
+.box{
+    display: flex;
+    margin: auto;
+}
+
 /*Header*/
 
 header{
@@ -51,22 +56,21 @@ header nav{
 
 .premiere{
     display: flex;
-    height: 250px;
+    height: 300px;
 }
 .img-prem {    
     width: auto;
-    height: 250px;
+    height: 300px;
     overflow: hidden;
+    margin-right:0;
 }
 .premiere img {
-    height: 350px;
+    height: 500px;
 }
 .prem {
     width: 379px;
-}
-.prem-box{
-    display: flex;
-    margin: auto;
+    margin-right: 40px;
+    margin-left: 60px;
 }
 .prem h1{
     margin-bottom: 5px;
@@ -88,9 +92,31 @@ header nav{
     background: #ef5466;
     color: white;
 }
+.boxpr{
+    margin-right: 60px;
+}
 
 /*Presentation*/
 
 .presentation {
     background: #f9f9f9;
+    display: flex;
+}
+.presentation img {
+    width: 250px;
+    height: 471.61px;
+    margin: 50px 15px;
+}
+.infobox {
+    width: 600px;
+    padding: 33px;
+    display: flex;
+}
+.infobox h2{
+
+}
+.infobox div{
+    width: 280px;
+    padding-right: 20px;
+    justify-content: space-evenly;
 }

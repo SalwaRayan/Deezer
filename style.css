@@ -291,3 +291,11 @@ header nav{
     font-size: 23px;
     margin-left: 5px;
 }
+
+footer{
+    background: black;
+    color: white;
+}
+footer img{
+    filter: brightness(0) invert(1)
+}

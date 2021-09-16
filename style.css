@@ -68,6 +68,26 @@ header nav{
     display: flex;
     margin: auto;
 }
+.prem h1{
+    margin-bottom: 5px;
+}
+.prem p {
+    color: #ef5466;
+    margin-top: 1em;
+    font-size: large;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.prem button {
+    width: 150px;
+    height: 40px;
+    margin-right: 25px;
+}
+.premium{
+    border: #ef5466;
+    background: #ef5466;
+    color: white;
+}
 
 /*Presentation*/
 

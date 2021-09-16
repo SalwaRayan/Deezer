@@ -134,6 +134,7 @@ header nav{
 }
 
 /*Icones*/
+
 .icones{
     background-color: #ef5466;
     color: white;
@@ -160,6 +161,7 @@ header nav{
 }
 
 /*Offres*/
+
 .three img{
     width: 14px;
     margin: 0 10px;
@@ -292,10 +294,22 @@ header nav{
     margin-left: 5px;
 }
 
+/*Footer*/
+
 footer{
     background: black;
     color: white;
 }
 footer img{
     filter: brightness(0) invert(1)
+}
+.down {
+    width: 60px;
+    height: fit-content;
+}
+.norm{
+    filter: none;
+}
+.stores{
+    display: flex;
 }

@@ -199,9 +199,6 @@ header nav{
     background: #8e8e94;
     color: white;
 }
-span{
-    justify-content: center;
-}
 .offres a {
     margin: 5px;
     font-size: 10px;
@@ -227,4 +224,70 @@ span{
 .recommande img{
     width: 10px;
     filter: brightness(0) invert(0.5);
+}
+.pie{
+    margin: auto;
+    width: 1100px;
+    color: #8e8e94;
+    font-size: 9px;
+    padding-bottom: 20px;
+    padding-top: 80px;
+    text-align: center;
+} 
+.mois{
+    justify-content: center;
+    font-size: 12px;
+    padding: 0 80px;
+    margin: auto;
+    margin-bottom: 40px;
+
+}
+.money{
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+/*Offres part2*/
+
+.ligneoffre {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-left: 200px;
+    width: 900px;
+    height: 120px;
+    padding-top: 30px;
+}
+.ligneoffre button{
+    margin: auto;
+    margin-right: 0;
+    padding: 5px 30px;
+    align-items: none;
+}
+.ligne{
+    background: #f9f9f9;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ligneoffre h3{
+    display: inline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.ligneoffre p{
+    font-size: 14px;
+    margin: 0;
+}
+.ligneoffre a {
+    font-size: 10px;
+    color: #2d96c8;
+    padding-bottom: 15px;
+}
+.txtcenter {
+    padding-top: 20px;
+}
+.percent{
+    color: #ef5466;
+    font-size: 23px;
+    margin-left: 5px;
 }

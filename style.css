@@ -367,9 +367,6 @@ footer a{
     color: #8e8e94;
     margin-bottom: 40px;
 }
-
-.last{
-}
 .lastbox{
     display: flex;
 }
@@ -429,11 +426,14 @@ footer a{
     /*Première*/
 
     .premiere{
-        height: fit-content;
+        height: 679px;
+    }
+    .box {
+        margin: 63px 0 0;
     }
     .prem{
         text-align: center;
-        margin: 10px auto;
+        margin: 30px auto;
     }
     .prem button{
         margin: 10px auto;
@@ -453,5 +453,11 @@ footer a{
     .premiere img{
         height: auto;
         width: 800px;
+    }
+
+    /*Presentation*/
+
+    .presentation img{
+        
     }
 }

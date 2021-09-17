@@ -223,13 +223,25 @@ nav button{
 .bottom{
     padding-top: 20px;
 }
-.recommande{
+.recommande1{
     text-align: center;
     padding: 0;
     font-size: 12px;
     color: #8e8e94;
 }
-.recommande img{
+.recommande2{
+    text-align: center;
+    padding: 0;
+    font-size: 12px;
+    color: #8e8e94;
+    display:none;
+}
+.recommande1 img{
+    width: 10px;
+    filter: brightness(0) invert(0.5);
+}
+
+.recommande2 img{
     width: 10px;
     filter: brightness(0) invert(0.5);
 }
@@ -426,18 +438,15 @@ footer a{
     /*Première*/
 
     .premiere{
-        height: 679px;
-    }
-    .box {
-        margin: 63px 0 0;
+        height: 680px;
     }
     .prem{
         text-align: center;
         margin: 30px auto;
     }
     .prem button{
-        margin: 10px auto;
-        width: 400px;
+        margin: 10px 0;
+        width: 380px;
         height: 50px;
         font-size: 20px;
     }
@@ -445,6 +454,7 @@ footer a{
         display: block;
         width: 700px;
         height: 300px;
+        margin: 63px 0 0;
     }
     .img-prem{
         margin: 10px auto;
@@ -457,7 +467,70 @@ footer a{
 
     /*Presentation*/
 
+    .presentation{
+        display: block;
+    }
     .presentation img{
-        
+        display: none;
+    }
+    .textpres {
+        display: block;
+    }
+    .infobox h2 {
+        text-align: center;
+    }
+
+    /*Icones*/
+
+    .icones{
+        height: fit-content;
+
+    }
+    .ibox{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .iline{
+        order: 1;
+        margin-bottom: 30px;
+        margin-top:0;
+    }
+
+    /*Offres Part1*/
+    .offres{
+        display: flex;
+        flex-direction: column;
+    }
+    .three{
+        display: flex;
+        flex-direction:column;
+    }
+    .recommande1{
+        display:none;
+    }
+    .recommande2{
+        display:initial;
+    }
+    .pie{
+        width:100%;
+        margin: 0 5px;
+    }
+
+    /*Offre Part 2*/
+
+    .txtcenter p {
+        display: none;
+    }
+    .ligneoffre{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .ligneoffre button{
+        margin: auto;
     }
 }

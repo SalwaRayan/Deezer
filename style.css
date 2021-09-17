@@ -23,6 +23,9 @@ body {
     padding: 50px;
     margin: 5px;
 }
+a{
+    text-decoration: none;
+}
 
 /*Header*/
 
@@ -31,30 +34,27 @@ header{
     justify-content: space-between;
     margin: 20px 30px;
     border-bottom: 3px solid #f9f9f9;
-    
+    padding: 10px;
 }
-header img{
-    height: 25px;
+.container img{
     width: auto;
+    height: 25px;
 }
-a{
-    text-decoration: none;
+nav p{
+    display: inline-block;
+    margin: 0 10px;
 }
-header a {
+nav a{
     color: black;
-    padding: 0 10px;
 }
-header button{
-    margin: 0 5px;
+nav button{
+    margin: 5px;
 }
-header nav{
-    margin-bottom: 10px;
-}
-.connex {
+.connex{
     border-color: #2d96c8;
-    color: #2d96c8;
+    color:#2d96c8
 }
-.join {
+.join{
     border-color: #2d96c8;
     color: white;
     background-color: #2d96c8;
@@ -405,6 +405,7 @@ footer a{
     }
     nav{
         width: 100%;
+        display: none;
     }
     .menulist p, button{
         display: block;
@@ -427,5 +428,30 @@ footer a{
 
     /*Première*/
 
-    
+    .premiere{
+        height: fit-content;
+    }
+    .prem{
+        text-align: center;
+        margin: 10px auto;
+    }
+    .prem button{
+        margin: 10px auto;
+        width: 400px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .boxpr{
+        display: block;
+        width: 700px;
+        height: 300px;
+    }
+    .img-prem{
+        margin: 10px auto;
+        overflow: hidden;
+    }
+    .premiere img{
+        height: auto;
+        width: 800px;
+    }
 }

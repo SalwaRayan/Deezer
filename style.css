@@ -34,7 +34,7 @@ header{
     
 }
 header img{
-    height: 20px;
+    height: 25px;
     width: auto;
 }
 a{
@@ -254,9 +254,8 @@ header nav{
 .ligneoffre {
     display: flex;
     justify-content: space-around;
-    margin-right: 200px;
-    margin-left: 200px;
-    width: 900px;
+    margin: 0 auto;
+    width: 1100px;
     height: 120px;
     padding-top: 30px;
 }
@@ -303,13 +302,86 @@ footer{
 footer img{
     filter: brightness(0) invert(1)
 }
+footer a{
+    color: white;
+    text-decoration: none;
+}
+.download{
+    display: flex;
+}
 .down {
-    width: 60px;
+    width: 30px;
     height: fit-content;
+    padding: 3px 0;
+    padding-right: 3px;
 }
 .norm{
     filter: none;
 }
 .stores{
     display: flex;
+    border: 2px solid #8e8e94;
+    border-radius: 10px;
+    padding: 10px 25px;
+    margin: 80px 8px;
+} 
+.app {
+    display: flex;
+    margin: auto;
+}
+.boxapp{
+    font-style: normal;
+    padding-left: 5px;
+}
+.boxapp h4{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.boxapp p{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.credit {
+    display: flex;
+    
+    justify-content: space-between;
+}
+.colcredit a {
+    display: block;
+    margin: 30px 0;
+}
+.colcredit{
+    margin: 0 20px;
+    font-size: 14px;
+}
+.colcredit p{
+    color: #8e8e94;
+    margin-bottom: 40px;
+}
+
+.last{
+}
+.lastbox{
+    display: flex;
+}
+.lastsocial{
+    margin: auto;
+}
+.lastsocial img{
+    width: 20px;
+    margin: 10px;
+}
+.logolast{
+    margin: auto;
+    margin-bottom: 30px;
+}
+.language{
+    margin: auto;
+    display: flex;
+}
+.language nav {
+    margin: 0 10px;
 }

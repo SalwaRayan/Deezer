@@ -59,6 +59,12 @@ header nav{
     color: white;
     background-color: #2d96c8;
 }
+.nav-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display:none;
+}
 
 /*Première*/
 
@@ -384,4 +390,42 @@ footer a{
 }
 .language nav {
     margin: 0 10px;
+}
+
+@media (max-width: 720px) {
+
+    /*Header*/
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+        margin: auto;
+        height: 45px;
+        overflow: hidden;
+    }
+    nav{
+        width: 100%;
+    }
+    .menulist p, button{
+        display: block;
+        padding: 1.5rem 0;
+    }
+
+    .join {
+        margin: 10px auto;
+    }
+    .connex {
+        margin: 10px auto;
+    }
+
+    .menulist a {
+        font-size: 1.4rem;
+    }
+    .nav-toggle {
+        display:block;
+    }
+
+    /*Première*/
+
+    
 }

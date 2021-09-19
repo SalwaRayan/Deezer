@@ -533,4 +533,37 @@ footer a{
     .ligneoffre button{
         margin: auto;
     }
+
+    /*Footer*/
+
+    .app{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .stores{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .credit{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .colcredit{
+        margin-top: 10px;
+    }
+    .lastbox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .lastsocial{
+        margin: 10px;
+    }
+    .logolast{
+        margin: 10px;
+    }
+    .language{
+        margin: 10px;
+    }
+
+
 }
